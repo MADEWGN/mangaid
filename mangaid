@@ -33,8 +33,10 @@ W = Fore.WHITE
 R = Fore.RED
 G = Fore.GREEN
 BL = Fore.BLACK
+
 def clear():
     os.system("cls" if os.name == "nt" else "clear")
+    
 def baner():
     print(f"\t\t\033[00mManga {R}ID \033[00mDownloader")
     print("\t"+Back.WHITE+Fore.BLACK+"https://ainxbot-id.herokuapp.com/\033[00m")
