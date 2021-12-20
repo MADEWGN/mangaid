@@ -14,7 +14,7 @@ except ImportError:
 
 setup(
     name='mangaid',
-    version='0.0.1',
+    version='1.0.0',
     url='https://github.com/SekaiKode/pastekan-cli',
     description='CLI client for pastekan server (pastekan.cf) written in Python.',
     long_description=read_md('README.md'),
@@ -25,8 +25,8 @@ setup(
     scripts=['mangaid'],
     install_requires=[
         'requests',
-        'colorama'
-				'bs4'
+        'colorama',
+				'bs4',
     ],
     classifiers=[
         'Environment :: Console',
